@@ -1,0 +1,93 @@
+<LXFML versionMajor="7" versionMinor="0" versionPatch="0" name="UntitledModel">
+  <Meta>
+    <Application name="LDraw Converter" versionMajor="2.26.3" versionMinor="1" />
+  </Meta>
+  <Cameras>
+    <Camera refID="0" orthographic="False" fieldOfView="24.6781730652" distance="87.34616" transformation="0.866030,0.000000,0.500000,0.287550,0.818080,-0.498060,-0.409040,0.575110,0.708480,-35.728050,50.233280,61.882760" />
+  </Cameras>
+  <Bricks cameraRef="0">
+    <Brick refID="0" designID="3816" uuid="c81e728d-9d4c-2f63-6f06-7f89cc14862c" itemNos="4221884">
+      <Part refID="0" designID="3816" partType="rigid" materials="192:0">
+        <Bone refID="0" transformation="1,0,0,0,1,0,0,0,1,-0.42,0,0.35" />
+      </Part>
+    </Brick>
+    <Brick refID="1" designID="3817" uuid="eccbc87e-4b5c-e2fe-2830-8fd9f2a7baf3" itemNos="4221885">
+      <Part refID="1" designID="3817" partType="rigid" materials="192:0,192:0">
+        <Bone refID="1" transformation="1,0,0,0,1,0,0,0,1,0.42,0,0.35" />
+      </Part>
+    </Brick>
+    <Brick refID="2" designID="3815" uuid="a87ff679-a2f3-e71d-9181-a67b7542122c" itemNos="4211032">
+      <Part refID="2" designID="3815" partType="rigid" materials="199:0">
+        <Bone refID="2" transformation="1,0,0,0,1,0,0,0,1,-0.4,1.6,0.35" />
+      </Part>
+    </Brick>
+    <Brick refID="3" designID="3819" uuid="8f14e45f-ceea-167a-5a36-dedd4bea2543" itemNos="4199254">
+      <Part refID="3" designID="3819" partType="rigid" materials="151:0,151:0">
+        <Bone refID="3" transformation="0.983724,0.1795273,0.007552124,-0.1423098,0.7527524,0.6427377,0.109704,-0.6333512,0.7660491,0.6231448,2.512099,0.3403932" />
+      </Part>
+    </Brick>
+    <Brick refID="4" designID="3818" uuid="c9f0f895-fb98-ab91-59f5-1fd0297e236d" itemNos="4199256">
+      <Part refID="4" designID="3818" partType="rigid" materials="151:0,151:0">
+        <Bone refID="4" transformation="0.9833182,-0.1818683,-0.003057755,0.1772664,0.9543985,0.2402088,-0.04076805,-0.2367437,0.9707165,-0.6199353,2.510375,0.3468751" />
+      </Part>
+    </Brick>
+    <Brick refID="5" designID="3820" uuid="45c48cce-2e2d-7fbd-ea1a-fc51c7c6ad26" itemNos="4165787">
+      <Part refID="5" designID="3820" partType="rigid" materials="151:0">
+        <Bone refID="5" transformation="0.9817128,0.1556766,0.1095669,-0.1822592,0.9348069,0.3048239,-0.05496991,-0.3192191,0.9460853,-0.9075359,2.049805,1.025605" />
+      </Part>
+    </Brick>
+    <Brick refID="6" designID="3820" uuid="d3d94468-02a4-4259-755d-38e6d163e820" itemNos="4165787">
+      <Part refID="6" designID="3820" partType="rigid" materials="151:0">
+        <Bone refID="6" transformation="0.9914685,0.04925481,-0.1206823,0.04925481,0.7156383,0.6967322,0.1206823,-0.6967322,0.7071068,0.9493883,1.808911,0.7500001" />
+      </Part>
+    </Brick>
+    <Brick refID="7" designID="60752" uuid="c51ce410-c124-a10e-0db5-e4b97fc2af39" itemNos="4611882">
+      <Part refID="7" designID="60752" partType="rigid" materials="179:0">
+        <Bone refID="7" transformation="-0.00951083,-0.541289,0.8407828,-0.1901977,0.8264502,0.5299103,-0.9816998,-0.1548751,-0.1108122,-0.8468859,1.562506,1.17456" />
+      </Part>
+    </Brick>
+    <Brick refID="8" designID="60751" uuid="aab32389-22bc-c25a-6f60-6eb525ffdc56" itemNos="4519686">
+      <Part refID="8" designID="60751" partType="rigid" materials="132:0">
+        <Bone refID="8" transformation="1,0,0,0,1,0,0,0,1,0,3.84,0.35" />
+      </Part>
+    </Brick>
+  </Bricks>
+  <GroupSystems>
+    <BrickGroupSystem name="BOMBags" isHierarchical="true" isUnique="true">
+      <Group refID="1" brickRefs="0,1,2,3,4,5,6,7,8" />
+    </BrickGroupSystem>
+    <BrickGroupSystem isHierarchical="true" isUnique="true">
+      <Group refID="2" transformation="1,0,0,0,1,0,0,0,1,0,0,0" pivot="0,0,0" brickRefs="0,1,2,3,4,5,6,7,8" />
+    </BrickGroupSystem>
+  </GroupSystems>
+  <Configurations>
+    <Configuration type="design">
+      <Build uuid="eced6285-66cf-1e4d-3b82-566a8f1e9770" name="UntitledModel">
+        <Brick brickRef="c81e728d-9d4c-2f63-6f06-7f89cc14862c" />
+        <Brick brickRef="eccbc87e-4b5c-e2fe-2830-8fd9f2a7baf3" />
+        <Brick brickRef="a87ff679-a2f3-e71d-9181-a67b7542122c" />
+        <Brick brickRef="8f14e45f-ceea-167a-5a36-dedd4bea2543" />
+        <Brick brickRef="c9f0f895-fb98-ab91-59f5-1fd0297e236d" />
+        <Brick brickRef="45c48cce-2e2d-7fbd-ea1a-fc51c7c6ad26" />
+        <Brick brickRef="d3d94468-02a4-4259-755d-38e6d163e820" />
+        <Brick brickRef="c51ce410-c124-a10e-0db5-e4b97fc2af39" />
+        <Brick brickRef="aab32389-22bc-c25a-6f60-6eb525ffdc56" />
+      </Build>
+    </Configuration>
+  </Configurations>
+  <BuildingInstruction>
+    <Steps rotation="0,-90,0">
+      <Step refID="0" cameraType="standard">
+        <In brickRef="0" />
+        <In brickRef="1" />
+        <In brickRef="2" />
+        <In brickRef="3" />
+        <In brickRef="4" />
+        <In brickRef="5" />
+        <In brickRef="6" />
+        <In brickRef="7" />
+        <In brickRef="8" />
+      </Step>
+    </Steps>
+  </BuildingInstruction>
+</LXFML>

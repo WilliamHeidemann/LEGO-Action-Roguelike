@@ -1,0 +1,37 @@
+<LXFML versionMajor="7" versionMinor="0" versionPatch="0" name="UntitledModel">
+  <Meta>
+    <Application name="LDraw Converter" versionMajor="2.26.3" versionMinor="1" />
+  </Meta>
+  <Cameras>
+    <Camera refID="0" orthographic="False" fieldOfView="24.6781730652" distance="79.99999" transformation="1.000000,0.000000,0.000000,0.000000,0.764840,-0.644220,0.000000,0.644220,0.764840,-0.000005,51.537410,61.187370" />
+  </Cameras>
+  <Bricks cameraRef="0">
+    <Brick refID="0" designID="18041" uuid="c4ca4238-a0b9-2382-0dcc-509a6f75849b">
+      <Part refID="0" designID="18041" partType="rigid" materials="25:0">
+        <Bone refID="0" transformation="1,0,0,0,1,0,0,0,1,0,0,0" />
+      </Part>
+    </Brick>
+  </Bricks>
+  <GroupSystems>
+    <BrickGroupSystem name="BOMBags" isHierarchical="true" isUnique="true">
+      <Group refID="1" brickRefs="0" />
+    </BrickGroupSystem>
+    <BrickGroupSystem isHierarchical="true" isUnique="true">
+      <Group refID="2" transformation="1,0,0,0,1,0,0,0,1,0,0,0" pivot="0,0,0" brickRefs="0" />
+    </BrickGroupSystem>
+  </GroupSystems>
+  <Configurations>
+    <Configuration type="design">
+      <Build uuid="eced6285-66cf-1e4d-3b82-566a8f1e9770" name="UntitledModel">
+        <Brick brickRef="c4ca4238-a0b9-2382-0dcc-509a6f75849b" />
+      </Build>
+    </Configuration>
+  </Configurations>
+  <BuildingInstruction>
+    <Steps rotation="0,-90,0">
+      <Step refID="0" cameraType="standard">
+        <In brickRef="0" />
+      </Step>
+    </Steps>
+  </BuildingInstruction>
+</LXFML>

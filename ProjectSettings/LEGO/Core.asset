@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 53
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57ec31c5b5f3a47ba96a4f2a94273d25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: LEGO.Core.Editor::LEGOCore.ProjectSettings
+  ignorePackageUpdates: 0
+  packageCheckedVersions:
+    keys:
+    - com.lego.modelimporter
+    - com.lego.core
+    - com.lego.creatures
+    - com.lego.minidoll
+    - com.lego.wirelesssdk
+    values: f065b93b1014aa3b2810aa3b1014aa3beacd9a3b
+  changelogCheckedVersions:
+    keys:
+    - com.lego.core
+    - com.lego.materials
+    - com.lego.minifig
+    - com.lego.assets
+    - com.lego.modelimporter
+    values: 2910aa3bfb17aa3b385ab93b385ab93bf065b93b
+  changelogIgnore:
+    keys: []
+    values: 
+  issueIgnore:
+    keys: []
+    values: 
+  runtimeMode: 0
+  experimentalMode: 0
