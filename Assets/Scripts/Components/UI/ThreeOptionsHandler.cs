@@ -10,6 +10,7 @@ namespace Components.UI
     {
         [SerializeField] private UIDocument _uiDocument;
         [SerializeField] private ProgressBarHandler _progressBarHandler;
+        [SerializeField] private ArrowHandler _arrowHandler;
         
         private List<VisualElement> _options;
 
@@ -37,6 +38,7 @@ namespace Components.UI
                 return;
             }
 
+            _arrowHandler.Hide();
             _progressBarHandler.IsPresentedWithChoice = true;
             _choice = choice;
             Show();
@@ -58,6 +60,7 @@ namespace Components.UI
             _choice = null;
             PauseManager.PauseMode = PauseMode.Playing;
             _uiDocument.rootVisualElement.style.display = DisplayStyle.None;
+            _arrowHandler.Show();
             _progressBarHandler.IsPresentedWithChoice = false;
         }
 

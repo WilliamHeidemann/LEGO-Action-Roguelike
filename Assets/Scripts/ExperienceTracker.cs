@@ -1,27 +1,24 @@
 using System;
 
-namespace Components
+public class ExperienceTracker
 {
-    public class ExperienceTracker
+    public int RequiredForNextLevel { get; private set; }
+    private int _experience;
+    public Action OnLevelUp { get; set; }
+        
+    public ExperienceTracker(int requiredForNextLevel)
     {
-        public int RequiredForNextLevel { get; private set; }
-        private int _experience;
-        public Action OnLevelUp { get; set; }
+        RequiredForNextLevel = requiredForNextLevel;
+    }
         
-        public ExperienceTracker(int requiredForNextLevel)
+    public void Gain(int experience)
+    {
+        _experience += experience;
+        if (_experience >= RequiredForNextLevel)
         {
-            RequiredForNextLevel = requiredForNextLevel;
-        }
-        
-        public void Gain(int experience)
-        {
-            _experience += experience;
-            if (_experience >= RequiredForNextLevel)
-            {
-                OnLevelUp?.Invoke();
-                _experience %= RequiredForNextLevel;
-                RequiredForNextLevel += 1;
-            }
+            OnLevelUp?.Invoke();
+            _experience %= RequiredForNextLevel;
+            RequiredForNextLevel += 1;
         }
     }
 }

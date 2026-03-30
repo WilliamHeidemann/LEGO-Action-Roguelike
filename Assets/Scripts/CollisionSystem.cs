@@ -11,7 +11,7 @@ public static class CollisionSystem
         {
             foreach (ColliderData<T2> b in colliderData2)
             {
-                const float distanceThreshold = 3f;
+                const float distanceThreshold = 20f;
                 if (Vector3.SqrMagnitude(a.Position - b.Position) < distanceThreshold)
                 {
                     yield return (a.Carrier, b.Carrier);
